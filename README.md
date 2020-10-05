@@ -1,21 +1,6 @@
 # CoinFlip
 CoinFlip is exactly like its name
 
-It uses: 
- _    _                _     
- | |  | |              | |    
- | |__| | ___  __ _  __| |___ 
- |  __  |/ _ \/ _` |/ _` / __|
- | |  | |  __/ (_| | (_| \__ \
- |_|  |_|\___|\__,_|\__,_|___/
- 
- and
- 
- _______    _ _     
- |__   __|  (_) |    
-    | | __ _ _| |___ 
-    | |/ _` | | / __|
-    | | (_| | | \__ \
-    |_|\__,_|_|_|___/
+It uses Ascii art Heads and Tails on a 50/50 chance
 
-for its flips
+You can also use 'close' to close the script
