@@ -1,3 +1,4 @@
+import os
 from os import system
 system("title " + "CoinFlip")
 
@@ -10,6 +11,9 @@ def sprint(str):
      sys.stdout.write(c)
      sys.stdout.flush()
      time.sleep(3./90)
+
+def cls():
+    os.system('cls' if os.name=='nt' else 'clear')
 
 heads = """
   _    _                _     
@@ -32,6 +36,7 @@ ans = True
 
 while ans:
     close = input("'Close' to exit ").lower()
+    cls()
     
     answer = random.randint(1,2)
 
@@ -43,4 +48,3 @@ while ans:
 
     elif answer == 2:
         print(tails)
-
